@@ -1,0 +1,337 @@
+@font-face {
+  font-family: 'Helvetica Neue Italic';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Helvetica Neue Italic'), url('HelveticaNeueItalic.woff') format('woff');
+}
+
+body {
+  font-family: 'Helvetica Neue Italic';
+  color: #484848;
+}
+
+.container {
+  width: 1045px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+header {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 20px;
+  height: 80px;
+  border-bottom: 1px solid rgb(219, 218, 218);
+}
+
+.header-left {
+  float: left;
+  height: 80px;
+}
+
+.header-logo {
+  float: left;
+  height: 80px;
+  color: #006c70;
+}
+
+nav {
+  margin-top: 10px;
+}
+
+.header-logo a {
+  color: #006c70;
+  font-size: 35px;
+  display: block;
+  padding-top: 20px;
+  padding-left: 20px;
+}
+
+.header-right {
+  float: right;
+  height: 80px;
+}
+
+.two-column .box {
+  width: 440px;
+}
+
+.section h3 {
+  font-size: 24px;
+  line-height: 30px;
+}
+
+.section p {
+  font-size: 16px;
+  line-height: 28px;
+}
+
+.headline {
+  font-weight: 900;
+  font-size: 60px;
+  line-height: 64px;
+  color: #333;
+}
+
+.top-wrapper {
+  background-image: url(image/top-page.jpg);
+  background-size: cover;
+  height: 600px;
+  margin-top: 80px;
+}
+
+.top-wrapper .container {
+  position: relative;
+  height: 600px;
+}
+
+.top-wrapper .box {
+  width: 460px;
+  height: 420px;
+  border-radius: 5px;
+  position: absolute;
+  bottom: 100px;
+  right: 0px;
+  padding: 30px;
+}
+
+.top-wrapper .box h3 {
+  font-size: 16px;
+}
+
+.top-wrapper .box .main {
+  padding-top: 20px;
+}
+
+.top-wrapper .one {
+  border: 1px solid rgb(219, 218, 218);
+  padding: 12px;
+}
+
+.top-wrapper .two {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.top-wrapper .two .left {
+  border: 1px solid rgb(219, 218, 218);
+  padding: 12px 130px 12px 12px;
+}
+
+.top-wrapper .two .right {
+  border: 1px solid rgb(219, 218, 218);
+  padding: 12px 55px 12px 12px;
+  margin-left: 10px;
+}
+
+.top-wrapper .start {
+  border: 1px solid #dc3545;
+  background-color: #dc3545;
+  padding: 10px 165px;
+  color: #ffffff;
+  border-radius: 5px;
+}
+
+.three-column .box {
+  width: 295px;
+}
+
+.image {
+  height: 510px;
+}
+
+.button {
+  border: 1px solid #dc3545;
+  background-color: #dc3545;
+  color: #ffffff;
+  padding: 7px 15px;
+  border-radius: 5px;
+  margin-top: 20px;
+  margin-right: 70px;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  position: relative;
+}
+
+.two-column li::after {
+  content: '';
+  display: block;
+  position: absolute;
+  top: .1em;
+  left: -2.2rem;
+  width: 18px;
+  height: 8px;
+  border-left: 1px solid #008489;
+  border-bottom: 1px solid #008489;
+  transform: rotate(-45deg);
+}
+
+.one-column .container {
+  height: 580px;
+}
+
+.bottom-wrapper {
+  background-image: url(../airbnb/image/start.jpg);
+  background-size: cover;
+  height: 440px;
+  margin: 0 35px;
+}
+
+.two-column {
+  margin-top: 70px;
+  margin-bottom: 70px;
+}
+
+h3 {
+  font-size: 24px;
+  font-weight: 800;
+  margin-bottom: 15px;
+}
+
+.three-column {
+  margin-top: 70px;
+  margin-bottom: 70px;
+}
+
+hr {
+  border: 1px solid #484848;
+  width: 50px;
+  margin: 30px auto;
+}
+
+h2 {
+  text-align: center;
+  font-size: 60px;
+  line-height: 64px;
+  font-weight: 900;
+  margin-bottom: 70px;
+}
+
+.box .far {
+  font-size: 60px;
+  font-weight: normal;
+  padding-bottom: 20px;
+}
+
+.data {
+  text-align: center;
+}
+
+.data h3 {
+  font-size: 60px;
+  line-height: 64px;
+  font-weight: normal;
+}
+
+.ex {
+  height: 510px;
+}
+
+
+blockquote {
+  display: inline;
+  font-size: 32px;
+  line-height: 40px;
+  vertical-align: bottom;
+}
+
+cite {
+  font-size: 16px;
+  line-height: 22px;
+  color: #767676;
+}
+
+.ex button {
+  font-size: 16px;
+  line-height: 24px;
+  border: 1px solid #484848;
+  border-radius: 5px;
+  padding: 10px 20px;
+}
+
+.four-column h3 {
+  font-size: 14px;
+}
+
+.four-column a {
+  font-size: 14px;
+  color: #767676;
+}
+
+.bottom-wrapper .container {
+  position: relative;
+}
+
+.bottom-wrapper .box {
+  position: absolute;
+  top: 100px;
+  width: 460px;
+}
+
+.bottom-wrapper .box h1 {
+  font-size: 60px;
+  line-height: 64px;
+  color: #ffffff;
+  font-weight: 700;
+}
+
+.bottom-wrapper .box button {
+  font-size: 16px;
+  padding: 15px 30px;
+  font-weight: 800;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+.image h3 {
+  padding-top: 15px;
+}
+
+.list-box a {
+  border-bottom: 1px solid rgb(219, 218, 218);
+  display: block;
+  font-size: 18px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 0px;
+}
+
+footer hr {
+  width: auto;
+  border: 1px solid rgb(219, 218, 218);
+}
+
+.footer-left {
+  float: left;
+}
+
+.footer-left .fab {
+  float: left;
+  font-size: 24px;
+  padding-top: 15px;
+  padding-right: 15px;
+}
+
+.copy {
+  float: left;
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.copy a, p {
+  color: #767676;
+}
+
+.footer-right {
+  float: right;
+}
+
+.footer-right a {
+  color: #767676;
+  padding-left: 15px;
+}
