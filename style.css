@@ -74,7 +74,7 @@ nav {
 }
 
 .top-wrapper {
-  background-image: url(image/top-page.jpg);
+  background-image: url(https://github.com/ryort01/airbnb/blob/master/top-page.jpg);
   background-size: cover;
   height: 600px;
   margin-top: 80px;
@@ -176,7 +176,7 @@ li {
 }
 
 .bottom-wrapper {
-  background-image: url(../airbnb/image/start.jpg);
+  background-image: url(https://github.com/ryort01/airbnb/blob/master/start.jpg);
   background-size: cover;
   height: 440px;
   margin: 0 35px;
